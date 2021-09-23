@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="utils.Utils"/>
+      <class name="pages.Product"/>
+      <class name="pages.SubCategory"/>
+      <class name="steps.ProductPage"/>
+      <class name="pages.Home"/>
+      <class name="resources.ConfigFileReader"/>
+      <class name="runner.TestRunner"/>
+      <class name="runner.ngTestListener"/>
+      <class name="steps.Hook"/>
+      <class name="pages.ShoppingCart"/>
+      <class name="steps.ShoppingCartPage"/>
+      <class name="steps.MainPage"/>
+      <class name="steps.SubCategoryPage"/>
+      <class name="base.DriverHandler"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->
