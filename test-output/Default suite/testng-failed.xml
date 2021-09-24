@@ -19,4 +19,23 @@
       <class name="base.DriverHandler"/>
     </classes>
   </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="steps.Hook">
+        <methods>
+          <include name="tearDownAll"/>
+        </methods>
+      </class> <!-- steps.Hook -->
+      <class name="runner.TestRunner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUpClass"/>
+          <include name="initExtentReport"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="writeExtentReport"/>
+        </methods>
+      </class> <!-- runner.TestRunner -->
+    </classes>
+  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
