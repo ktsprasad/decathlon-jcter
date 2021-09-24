@@ -1,8 +1,8 @@
-Smartbox french site testing
+Decathlon site testing
 =====================
 
-Selenium Java testing public Smartbox Franch site, using Java, Selenium, POM, TestNG, Cucumber,
-Singleton, dependency injection and Cucumber reports.
+Selenium Java testing Decathlon site, using Java, Selenium, POM, TestNG, Cucumber,
+Singleton, dependency injection and extended reports.
 
 Website: https://www.decathlon.in/
 
@@ -72,6 +72,6 @@ v1.4
 - Note: in order to ru.yandex.qatools.ashot to work and allow webdriver to open you need to
   explicitly add selenium webdriver remote dependency
   
-v1.5 (06-03-2020)
+v1.5
 - fixes to run it on MAC OS
 
